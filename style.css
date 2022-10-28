@@ -16,6 +16,12 @@ body{
     overflow: hidden;
 }
 
+a,
+button{
+    color:inherit;
+    
+}
+
 .heading{
     font-size:70px;
     font-family: 'Monument-Bold', sans-serif;
