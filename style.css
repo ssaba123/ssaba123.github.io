@@ -18,12 +18,13 @@ body{
 
 a,
 button{
-    color:inherit;
-    
+    color:#A51612;
+
 }
 
 .heading{
     font-size:70px;
+    text-decoration: none;
     font-family: 'Monument-Bold', sans-serif;
     text-transform: uppercase;
 }
