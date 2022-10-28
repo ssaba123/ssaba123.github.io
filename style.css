@@ -1,4 +1,61 @@
+@font-face {
+    font-family:'Monument';
+    src: url('/assets/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family:'Monument-Bold';
+    src: url('/assets/MonumentExtended-Ultrabold.otf');
+}
+
 body{
     background-color: #CDA27E;
     color:#A51612;
+    font-family: 'Monument', sans-serif;
+    margin:100px;
 }
+
+.heading{
+    font-size:70px;
+    font-family: 'Monument-Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.info{ 
+    width:65vw; 
+    font-size:50px;
+    margin:100px 0
+}
+
+.nav{
+    width:300px;
+    font-family: 'Monument-Bold', sans-serif;
+}
+.nav a{
+    color:#A51612;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 40px;
+    position:relative;
+}
+
+.nav a::before{
+position: absolute;
+left:0%;
+bottom:0%;
+content:'';
+height:4px;
+width:0%;
+background-color: #A51612;
+transition: ease all .5s;
+}
+
+.nav a:hover::before{
+    width:100%;
+}
+
+.block{
+    background-color: #A51612;
+    color:#CDA27E
+}
+
