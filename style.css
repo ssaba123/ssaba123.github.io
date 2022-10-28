@@ -13,6 +13,7 @@ body{
     color:#A51612;
     font-family: 'Monument', sans-serif;
     margin:100px;
+    overflow: hidden;
 }
 
 .heading{
