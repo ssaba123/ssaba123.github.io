@@ -12,13 +12,13 @@ body{
     background-color: #CDA27E;
     color:#A51612;
     font-family: 'Monument', sans-serif;
-    margin:100px;
-    overflow: hidden;
+    margin:70px;
 }
 
 a,
 button{
     color:#A51612;
+    text-decoration: none;
 
 }
 
@@ -33,6 +33,10 @@ button{
     width:65vw; 
     font-size:50px;
     margin:100px 0
+}
+
+.info a{
+    text-decoration: underline;
 }
 
 .nav{
